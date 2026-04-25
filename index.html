@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
 <head>
   <meta charset="UTF-8"/>
-  <meta name="viemport" content="width=dvice-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
    rel="stylesheet"
    />
@@ -24,8 +24,8 @@
        <i class="ri-menu-line"></i>
        </div>
        <button onclick="toggleLanguage()" class="lang-btn">
-       AR / EN
-       </button>
+         🌐 AR
+        </button>
        </div>
       </div>
       <ul class="nav__links" id="nav-links">
@@ -179,7 +179,7 @@
           data-ar="سواء كنت تبحث عن مكان هادئ ومميز أو تجربة فريدة، فنحن نقدم لك إقامة لا تُنسى تجمع بين الراحة والمتعة">
           Whether you're seeking a cozy and exclusive hideaway or an immersive journey beneath the surface...
           </p>
-          <button class="btn">Book Now</button>
+          <button class="btn" data-en="Book Now" data-ar="احجز الآن">Book Now</button>
         </div>
         <div class="intro__video">
           <video src="12712639_VIDEO_ROOM(1).mp4" autoplay muted loop></video>
@@ -188,8 +188,12 @@
     </section>
 
     <section class="section__container feature__container" id="feature">
-      <p class="section__subheader">FACILITIES</p>
-      <h2 class="section__header">Core Features</h2>
+      <p class="section__subheader" data-en="FACILITIES" data-ar="المرافق">FACILITIES</p>
+      <h2 class="section__header"
+         data-en="Core Features"
+         data-ar="المميزات الأساسية">
+         Core Features
+         </h2>
       <div class="feature__grid">
         <div class="feature__card">
           <span><i class="ri-thumb-up-line"></i></span>
@@ -201,42 +205,43 @@
         <div class="feature__card">
           <span><i class="ri-time-line"></i></span>
           <h4 data-en="Quite Hours" data-ar="ساعات هادئة">Quite Hours</h4>
-          <p>
-            We understand that peace and uninterrupted rest are essential for a
-            rejuvenating experience.
-          </p>
+         <p data-en="We understand that peace and uninterrupted rest are essential for a rejuvenating experience."
+         data-ar="نؤمن بأن الهدوء والراحة التامة ضروريان لتجربة مميزة">
+         We understand that peace and uninterrupted rest are essential for a rejuvenating experience.
+         </p> 
         </div>
         <div class="feature__card">
           <span><i class="ri-map-pin-line"></i></span>
           <h4 data-en="Best Location" data-ar="أفضل موقع">Best Location</h4>
-          <p>
-            At our hotel booking website, we take pride in offering
-            accommodations in the most prime and sought-after locations.
+          <p data-en="At our hotel booking website, we take pride in offering accommodations in the most prime and sought-after locations."
+          data-ar="نوفر لك أماكن إقامة في أفضل وأهم المواقع">
+          At our hotel booking website, we take pride in offering accommodations in the most prime and sought-after locations.
           </p>
         </div>
         <div class="feature__card">
           <span><i class="ri-close-circle-line"></i></span>
           <h4 data-en="Free Cancellation" data-ar="إلغاء مجاني">Free Cancellation</h4>
-          <p>
-            We understand that travel plans can change unexpectedly, which is
-            why we offer the flexibility of free cancellation.
+          <p data-en="We understand that travel plans can change unexpectedly, which is why we offer the flexibility of free cancellation."
+          data-ar="نُدرك أن خطط السفر قد تتغير، لذلك نوفر إمكانية الإلغاء المجاني">
+          We understand that travel plans can change unexpectedly, which is why we offer the flexibility of free cancellation.
           </p>
+          
         </div>
         <div class="feature__card">
           <span><i class="ri-wallet-line"></i></span>
           <h4 data-en="Payment Options" data-ar="طرق دفع متعددة">Payment Options</h4>
-          <p>
-            Our hotel booking website offers a range of convenient payment
-            options to suit your preferences.
+          <p data-en="Our hotel booking website offers a range of convenient payment options to suit your preferences."
+          data-ar="نوفر طرق دفع متعددة تناسب احتياجاتك">
+          Our hotel booking website offers a range of convenient payment options to suit your preferences.
           </p>
         </div>
         <div class="feature__card">
           <span><i class="ri-coupon-line"></i></span>
           <h4 data-en="Special Offers" data-ar="عروض خاصة">Special Offers</h4>
-          <p>
-            Whether you're planning a romantic getaway, or a business trip, our
-            carefully curated special offers cater to all your needs.
-          </p>
+          <p data-en="Whether you're planning a romantic getaway, or a business trip, our carefully curated special offers cater to all your needs."
+          data-ar="سواء كنت تخطط لرحلة ترفيهية أو عمل، نقدم لك عروضًا تناسب جميع احتياجاتك">
+          Whether you're planning a romantic getaway, or a business trip, our carefully curated special offers cater to all your needs.
+         </p>
         </div>
       </div>
     </section>
@@ -263,9 +268,9 @@
               <p data-en="It is a culinary innovation..."
               data-ar="وجبة إفطار مميزة تجمع بين الطعم الرائع">
               It is a culinary innovation...
-              </p>
-                It is a culinary innovation that puts a unique spin on the
-                beloved breakfast combination.
+              <p data-en="It is a culinary innovation that puts a unique spin on the beloved breakfast combination."
+              data-ar="وجبة إفطار مميزة بتجربة جديدة ومذاق رائع">
+              It is a culinary innovation that puts a unique spin on the beloved breakfast combination.
               </p>
             </div>
           </li>
@@ -273,8 +278,9 @@
             <img src="pexels-coffee.jpg" alt="menu" />
             <div class="menu__details">
               <h4 data-en="Tea or Coffee" data-ar="شاي أو قهوة">Tea or Coffee</h4>
-              <p>
-                A classic choice for your daily dose of comfort and calmness.
+              <p data-en="A classic choice for your daily dose of comfort and calmness."
+              data-ar="اختيار كلاسيكي يمنحك الراحة والهدوء">
+              A classic choice for your daily dose of comfort and calmness.
               </p>
             </div>
           </li>
@@ -282,9 +288,9 @@
             <img src="pexels-food()3.jpg"alt="menu"/>
             <div class="menu__details">
               <h4 data-en="Chia Oatmeal" data-ar="شوفان بالشيا">Chia Oatmeal</h4>
-              <p>
-                Our Chia Oatmeal is a wholesome nutrient-packed breakfast
-                delight.
+              <p data-en="Our Chia Oatmeal is a wholesome nutrient-packed breakfast delight."
+              data-ar="وجبة شوفان صحية مليئة بالعناصر الغذائية">
+              Our Chia Oatmeal is a wholesome nutrient-packed breakfast delight.
               </p>
             </div>
           </li>
@@ -292,9 +298,9 @@
             <img src="pexels-food(4).jpg"alt="menu"/>
             <div class="menu__details">
               <h4 data-en="Fruit Parfait" data-ar="حلوى الفواكه">Fruit Parfait</h4>
-              <p>
-                Our Fruit Parfait is a delightful culinary masterpiece of
-                freshness and flavor.
+              <p data-en="Our Fruit Parfait is a delightful culinary masterpiece of freshness and flavor."
+              data-ar="حلوى فواكه طازجة بمذاق رائع ومنعش">
+              Our Fruit Parfait is a delightful culinary masterpiece of freshness and flavor.
               </p>
             </div>
           </li>
@@ -302,20 +308,21 @@
             <img src="pexels-food(5).jpg" alt="menu" />
             <div class="menu__details">
               <h4 data-en="Marmalade Selection" data-ar="تشكيلة مربى">Marmalade Selection</h4>
-              <p>
-                Our Marmalade Selection is a delectable medley of vibrant,
-                handcrafted citrus preserves.
-              </p>
+              <p data-en="Our Marmalade Selection is a delectable medley of vibrant, handcrafted citrus preserves."
+              data-ar="تشكيلة مربى مميزة بنكهات طبيعية">
+             Our Marmalade Selection is a delectable medley of vibrant, handcrafted citrus preserves.
+             </p> 
+    
             </div>
           </li>
           <li>
             <img src="pexels-food(6).jpg" alt="menu" />
             <div class="menu__details">
               <h4 data-en="Cheese Plate" data-ar="طبق جبن">Cheese Plate</h4>
-              <p>
-                Our cheese plate is a masterpiece that celebrates rich and
-                diverse world of cheeses.
-              </p>
+              <p data-en="Our cheese plate is a masterpiece that celebrates rich and diverse world of cheeses."
+               data-ar="طبق جبن فاخر يجمع بين أنواع متنوعة ومميزة">
+               Our cheese plate is a masterpiece that celebrates rich and diverse world of cheeses.
+               </p>
             </div>
           </li>
         </ul>
@@ -328,22 +335,22 @@
           <li>
             <span><i class="ri-file-text-line"></i></span>
             <h4>84k</h4>
-            <p>Projects are Completed</p>
+            <p data-en="Projects are Completed" data-ar="مشاريع مكتملة">Projects are Completed</p>
           </li>
           <li>
             <span><i class="ri-user-line"></i></span>
-            <h4>10M</h4>
-            <p>Active Around World</p>
+            <h4>M10</h4>
+            <p data-en="Active Around World" data-ar="نشط حول العالم">Active Around World</p>
           </li>
           <li>
             <span><i class="ri-function-line"></i></span>
             <h4>02k</h4>
-            <p>Categories Served</p>
+            <p data-en="Categories Served" data-ar="فئات مقدمة">Categories Served</p>
           </li>
           <li>
             <span><i class="ri-lightbulb-flash-line"></i></span>
             <h4>100M</h4>
-            <p>Ideas Raised Funds</p>
+            <p data-en="Ideas Raised Funds" data-ar="أفكار ممولة">Ideas Raised Funds</p>
           </li>
         </ul>
       </div>
@@ -366,40 +373,43 @@
         <div class="news__card">
           <img src="pexels-nem(1).jpg" alt="news" />
           <div class="news__card__title">
-            <p>1th April 2026</p>
-            <p>By Sara & Ahmed</p>
+           <p data-en="1th April 2026" data-ar="1 أبريل 2026">1th April 2026</p> 
+           <p data-en="By Sara & Ahmed" data-ar="بواسطة سارة وأحمد">By Sara & Ahmed</p>
           </div>
-          <h4>Discover the greatness of the Pyramids and enjoy a journey through the secrets of history.</h4>
-          <p>
-            Join Ahmed and Sara on a magical journey to the Pyramids, and enjoy a unique experience
-             that blends history with premium comfort.
-             Book now and start your own unforgettable adventure with exceptional service and stunning views.
-          
-          </p>
+          <h4 data-en="Discover the greatness of the Pyramids and enjoy a journey through the secrets of history." data-ar="اكتشف عظمة الأهرامات واستمتع برحلة عبر أسرار التاريخ">
+          Discover the greatness of the Pyramids and enjoy a journey through the secrets of history.
+          </h4>    
+              <p data-en="Join Ahmed and Sara on a magical journey to the Pyramids, and enjoy a unique experience that blends history with premium comfort."
+              data-ar="انضم إلى أحمد وسارة في رحلة ساحرة إلى الأهرامات واستمتع بتجربة فريدة تجمع بين التاريخ والراحة">
+              Join Ahmed and Sara on a magical journey to the Pyramids, and enjoy a unique experience that blends history with premium comfort.
+              </p>
         </div>
         <div class="news__card">
           <img src="pexels-new(2).jpg" alt="news" />
           <div class="news__card__title">
-            <p>15th January 2026</p>
-            <p>By Layla</p>
+            <p data-en="15th January 2026" data-ar="15 يناير 2026">15th January 2026</p>
+            <p data-en="By Layla" data-ar="بواسطة ليلى">By Layla</p>
           </div>
-          <h4>Discover the most famous Egyptian dishes and enjoy authentic flavors with unforgettable dining experiences.</h4>
-          <p>
-            Join Layla on a journey to discover the most famous Egyptian dishes, 
-            blending authentic flavors with unique experiences
-          
-          </p>
+          <h4 data-en="Discover the most famous Egyptian dishes and enjoy authentic flavors." data-ar="اكتشف أشهر الأكلات المصرية واستمتع بالمذاق الأصيل">
+          Discover the most famous Egyptian dishes and enjoy authentic flavors.
+           <p data-en="Join Layla on a journey to discover the most famous Egyptian dishes, blending authentic flavors with unique experiences."
+            data-ar="انضم إلى ليلى لاكتشاف أشهر الأكلات المصرية وتجربة نكهات مميزة">
+            Join Layla on a journey to discover the most famous Egyptian dishes, blending authentic flavors with unique experiences.
+           </p>
         </div>
         <div class="news__card">
           <img src="pexels-panditwiguna-34939814.jpg" alt="news" />
           <div class="news__card__title">
-            <p>8th August 2026</p>
-            <p>By Amelia</p>
+            <p data-en="8th August 2026" data-ar="8 أغسطس 2026">8th August 2026</p>
+            <p data-en="By Amelia" data-ar="بواسطة أميليا">By Amelia</p>
           </div>
-          <h4>Exploring Outdoor Activities Near Our Hotel.</h4>
-          <p>
+          <h4 data-en="Exploring Outdoor Activities Near Our Hotel." data-ar="استكشاف الأنشطة الخارجية بالقرب من الفندق">
+          Exploring Outdoor Activities Near Our Hotel.
+          </h4>
+            <p data-en="Discover Egypt like never before with unique experiences, from breathtaking desert adventures to relaxing Nile cruises and rich cultural tours."
+            data-ar="اكتشف مصر بطريقة جديدة من خلال مغامرات صحراوية ورحلات نيلية وتجارب ثقافية مميزة">
             Discover Egypt like never before with unique experiences, from breathtaking desert adventures to relaxing Nile cruises and rich cultural tours.
-          </p>
+           </p>
         </div>
       </div>
     </section>
@@ -445,7 +455,7 @@
           </div>
         </div>
         <div class="footer__col">
-          <h4>Contact Us</h4>
+          <h4 data-en="Contact Us" data-ar="تواصل معنا">Contact Us</h4>
           <div class="footer__links">
             <li>
               <span><i class="ri-phone-fill"></i></span>
@@ -457,23 +467,25 @@
             <li>
               <span><i class="ri-record-mail-line"></i></span>
               <div>
-                <h5>Email</h5>
+                <h5 data-en="Email" data-ar="البريد الإلكتروني">Email</h5>
                 <p> hagarezz895@gmail.com </p>
               </div>
             </li>
             <li>
               <span><i class="ri-map-pin-2-fill"></i></span>
               <div>
-                <h5>Location</h5>
+                <h5 data-en="Location" data-ar="الموقع">Location</h5>
                 <p>Abbas El Akkad Street, Nasr City, Cairo, Egypt</p>
               </div>
             </li>
           </div>
         </div>
       </div>
-      <div class="footer__bar">
-        Designed by [Hagar Ezz Eldeen] & Mostafa El Abd وAbdelhalim Sharif
-        Nada WaleedوAhmed Atef,Norhan Mohamed,Ahmed Mostafa © 2026
+      <div class="footer__bar"
+       data-en="Designed by Hagar Ezz Eldeen & Team © 2026"
+       data-ar="تم التصميم بواسطة هاجر عز الدين © 2026">
+       Designed by Hagar Ezz Eldeen © 2026
+      </div>
       </div>
     </footer>
     <script src="https://unpkg.com/scrollreveal"></script>
